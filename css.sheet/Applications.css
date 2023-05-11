@@ -1,0 +1,103 @@
+html, 
+        body{
+            background-color: rgb(59, 59, 182);
+        }
+        @font-face{
+            font-family: "Segoe UI";
+            src: url('../fonts/segoeuil.ttf');
+        }
+        
+       
+        .logo {
+            background-color: white;
+            color:white;
+            text-align:center;
+            box-sizing: content-box;
+            border-bottom: solid rgb(59, 59, 182) 5px;
+            padding:0px;
+            height: 35%;
+            width: 100%;
+        }
+       
+        .pages {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            box-sizing: content-box;
+            border-right: solid rgb(59, 59, 182) 5px;
+            width: 10%;
+            line-height: 50px;
+            font-size: 12px;
+            margin: auto;
+            padding-bottom: 260px;
+            padding-right: 40px;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            float: left;
+        }
+
+        .pages ul h1 {
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        .pages ul li {
+            list-style: inside;
+            margin: auto;
+            position: relative
+        }
+
+        .pages ul li a{
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        
+        .pages ul li::after {
+            content: '';
+            height: 3px;
+            width: 0%;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+        }
+
+        .content {
+            background-color: white;
+            float: left;
+            width: auto;
+            padding: 15px;
+            padding-right: 75px;
+            padding-left: 20px;
+            padding-bottom: 27px;
+        }
+
+        .content h2 {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .content p {
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+          
+        }
+
+        .Vulnerability {
+            position: absolute;
+            top: 335px;
+            right: 120px;
+            border-radius: 20%;
+            overflow: hidden;
+        }
+        
+        .authentication {
+            position: absolute;
+            bottom: 10px;
+            right: 120px;
+            border-radius: 20%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+    
+        
